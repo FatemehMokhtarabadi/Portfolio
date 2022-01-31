@@ -136,11 +136,6 @@ footer {
           justify-content: space-between;
 }
 
-.UX {
-  color: #fbf1f0;
-  font-family: "Nunito", sans-serif;
-}
-
 .blacktext {
   font-size: 95px;
   font-family: "Poppins", sans-serif;
@@ -151,8 +146,8 @@ footer {
 }
 
 .getintouch {
-  -webkit-transform: translateY(1.85em);
-          transform: translateY(1.85em);
+  -webkit-transform: translateY(1.5em);
+          transform: translateY(1.5em);
 }
 
 @media screen and (max-width: 900px) {
@@ -173,8 +168,8 @@ footer {
     text-align: center;
   }
   .getintouch {
-    -webkit-transform: translateY(3.5em);
-            transform: translateY(3.5em);
+    -webkit-transform: translateY(2em);
+            transform: translateY(2em);
   }
 }
 

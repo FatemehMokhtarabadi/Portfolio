@@ -100,7 +100,7 @@ footer {
   line-height: 0.9;
 }
 .getintouch {
-  transform: translateY(1.85em);
+  transform: translateY(1.5em);
 }
 
 @media screen and (max-width: $breakpoint) {
@@ -116,6 +116,6 @@ footer {
     text-align: center;
   }
   .getintouch {
-    transform: translateY(3.5em);
+    transform: translateY(2em);
   }
 }
