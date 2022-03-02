@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@800&family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@800&family=Poppins:wght@400;600;700&display=swap");
 
 $Nunito: "Nunito", sans-serif;
 $Playfair: "Playfair Display", serif;
 $Poppins: "Poppins", sans-serif;
 // c o l o r s
-$Dark: rgb(20, 26, 33);
-$Light: rgb(251, 241, 240);
-$Pink: rgb(239, 216, 212);
+$Dark: rgb(63, 33, 0);
+$Light: rgb(255, 235, 235);
+$Pink: rgb(255, 229, 225);
 $White: rgb(255, 255, 255);
 // Media breakpoint
 $breakpoint: 900px;
@@ -18,104 +18,14 @@ $breakpoint: 900px;
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
+  margin: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   background-color: $Pink;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.container {
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-header {
-  width: 100%;
-  background-color: $Dark;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-main {
-  width: 100%;
-  background-color: $Light;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 100px 0;
-}
-
-.projectssection {
-  width: 100%;
-  background-color: $Pink;
-  padding: 50px 0 0 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-footer {
-  width: 100%;
-  background-color: $Light;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-// UTILITIES
-
-.invisible {
-  opacity: 0;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-// UNIQUE CLASSES
-
-// .UX {
-//   color: $Light;
-//   font-family: $Nunito;
-// }
-.blacktext {
-  font-size: 95px;
-  font-family: $Poppins;
-  font-weight: black;
-  color: $Light;
-  margin: 10px 0 0 0;
-  line-height: 0.9;
-}
-.getintouch {
-  transform: translateY(1.5em);
 }
 
 @media screen and (max-width: $breakpoint) {
-  .invisible {
-    display: none;
-  }
-  .row {
-    justify-content: center;
-    flex-direction: column-reverse;
-  }
-  .blacktext {
-    font-size: 85px;
-    text-align: center;
-  }
-  .getintouch {
-    transform: translateY(2em);
-  }
 }
